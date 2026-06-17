@@ -36,16 +36,14 @@ export default function Features() {
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                Advanced Controls
+                Our Core Expertise
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Built for modern product teams
+              Our Core Expertise
             </h2>
             <p className="text-lg text-indigo-200/65">
-              Open AI reads and understands your files, and with nothing more
-              than a single line of feedback, so you can go further than the
-              speed of thought.
+              At Careez IT Sol, we deliver secure, scalable, and sustainable IT solutions designed to empower your business. Our services combine technical excellence with a people-first approach, ensuring technology works for you—not against you.
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
@@ -59,6 +57,7 @@ export default function Features() {
           </div>
           {/* Items */}
           <div className="mx-auto grid max-w-sm gap-12 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-3">
+            {/* 1. Managed IT Services */}
             <article>
               <svg
                 className="mb-3 fill-indigo-500"
@@ -73,13 +72,14 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Project Milestones
+                Managed IT Services
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Proactive support, real-time monitoring, and complete IT management to keep your operations running smoothly with zero downtime.
               </p>
             </article>
+
+            {/* 2. Cybersecurity & Protection */}
             <article>
               <svg
                 className="mb-3 fill-indigo-500"
@@ -91,13 +91,14 @@ export default function Features() {
                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Team Views
+                Cybersecurity & Protection
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Multi-layered security solutions designed to safeguard your data, infrastructure, and digital assets from evolving threats.
               </p>
             </article>
+
+            {/* 3. Network Solutions */}
             <article>
               <svg
                 className="mb-3 fill-indigo-500"
@@ -112,13 +113,14 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Advanced Search
+                Network Solutions
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                High-speed, scalable network architecture engineered for reliability, performance, and future growth.
               </p>
             </article>
+
+            {/* 4. Green IT & LEED Consulting */}
             <article>
               <svg
                 className="mb-3 fill-indigo-500"
@@ -138,13 +140,14 @@ export default function Features() {
                 <path d="m16.321 2-.5-.866 1.733-1 .5.866A22 22 0 0 1 21 12c0 3.852-1.017 7.636-2.948 10.97l-.502.865-1.73-1.003.501-.865A19.878 19.878 0 0 0 19 12a20 20 0 0 0-2.679-10Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Strategic Initiatives
+                Green IT & LEED Consulting
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Sustainable IT strategies that reduce energy consumption, optimize hardware lifecycle, and align with global environmental standards.
               </p>
             </article>
+
+            {/* 5. Strategic Sales & Procurement */}
             <article>
               <svg
                 className="mb-3 fill-indigo-500"
@@ -159,13 +162,14 @@ export default function Features() {
                 <path d="m7.454 2.891.891-.454L7.437.655l-.891.454a12 12 0 0 0 0 21.382l.89.454.91-1.781-.892-.455a10 10 0 0 1 0-17.818ZM17.456 1.11l-.891-.454-.909 1.782.891.454a10 10 0 0 1 0 17.819l-.89.454.908 1.781.89-.454a12 12 0 0 0 0-21.382Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Flexible Workflows
+                Strategic Sales & Procurement
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Trusted sourcing of premium hardware and software, ensuring you get the right tools at the right value.
               </p>
             </article>
+
+            {/* 6. Cloud & Modern Workplace */}
             <article>
               <svg
                 className="mb-3 fill-indigo-500"
@@ -180,11 +184,10 @@ export default function Features() {
                 <path d="M19.406 3.844 6.083 20.497.586 15 2 13.586l3.917 3.917L17.844 2.595l1.562 1.25Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Unified Timeline
+                Cloud & Modern Workplace
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Secure cloud migration, Microsoft 365 optimization, and digital workplace solutions that empower your teams to work smarter.
               </p>
             </article>
           </div>
