@@ -86,7 +86,7 @@ For more information about what support covers, please see our (FAQs)[https://cr
 
 ## About Us
 
-## About Us
+
 We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
 
 ## Stay in the loop
