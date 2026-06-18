@@ -4,6 +4,7 @@ import WorflowImg02 from "@/public/images/workflow-02.png";
 import WorflowImg03 from "@/public/images/workflow-03.png";
 // Reusing WorflowImg03 for the 4th card, swap out with workflow-04.png if available
 import Spotlight from "@/components/spotlight";
+"use client";
 
 export default function Workflows() {
   return (
