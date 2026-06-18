@@ -85,8 +85,6 @@ For more information about what support covers, please see our (FAQs)[https://cr
 - Attribution is not required, although it is really appreciated.
 
 ## About Us
-
-
 We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
 
 ## Stay in the loop
